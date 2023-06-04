@@ -1,0 +1,41 @@
+<!DOCTYPE html> <html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Our form</title>
+	<link rel="stylesheet" type="text/css" href="css.css"/>
+
+</head>
+<body >
+	<a href="/Index.html"><div id='entete_bandeau' align=center>
+		<p align=center>The project</p> </div> </a>
+	<div class="contact-title">
+ 
+ <h2>Please fill the blanks !</h2>
+</div>
+ <div class="contact-form">
+ 	<form id="contact-form" method="post" action="done.html">
+ 		<input type="text" name="Nom" class="form-control" placeholder="Your name" required><br/>
+ 		<input type="text" name="Pré-nom" class="form-control" placeholder="Your last-name" required><br/>
+ 		<input type="email" name="email" class="form-control" placeholder="Your email" required><br/>
+ 		
+ 		<textarea name="message" class="form-control" placeholder="Your message" row="4" required></textarea>
+ 		<div class="contact-title">Add any document : <br/><br/>
+        </div>
+  		<input type="file" name="fileToUpload" class="form-control" placeholder="Select document to upload" id="fileToUpload">
+  		<br/>
+  		<div class="checkboxes">
+  		<input type="checkbox" id="CB"><label for="CB">Remember me.</label>
+  		<br/>
+  		<div class="checkbox1">
+  		<input type="checkbox" id="q" required><label for="q"> I accept the  <a href="terms.html">Termes and Conditions</a>. </label>
+  		</div>
+  			</div>
+  			<br/>
+ 		<input type="submit"  class="form-control submit">
+ </div>
+</form>
+
+
+
+
+</body></html>

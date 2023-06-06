@@ -1,0 +1,35 @@
+﻿body{
+	background: linear-gradient(rgba(4, 52, 11, 0.5),rgb(40, 121, 56));
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+a{ text-decoration: none;
+}
+
+.separation{ height: 128px;
+}
+
+.case{
+	background-color: #364d7d;
+	color: #d9d9d9;
+	box-shadow: 0px 0px 12px #000000;
+}
+
+ .bouton_etape{
+	background-color: #c6d59a;
+	color: #364d7d;
+}
+
+.image{ float: right;
+}
+
+.right{ text-align: left; display: inline-block; float: right;
+}
+.left{ text-align: left; display: inline-block;
+}
+.centre{ text-align: center;
+}
+
+
